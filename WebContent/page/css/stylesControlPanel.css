@@ -1,0 +1,512 @@
+/* Style sheet for Latestchoice.com Admin Control Panel - Created by Ramkumar */
+BODY { 
+	font-family: Tahoma;
+	font-size: 11px;
+	padding: 10px 30px 30px 30px;
+	margin: 0px;
+}
+TD { 
+	font-family: Tahoma; font-size: 11px; 
+	}
+P { 
+	font-family: Tahoma; font-size: 11px; 
+	}
+/*fonts & headings*/
+.adminPagesHeadings {
+font-size:20px;
+}
+.font-bold{
+font-weight:bold;
+}
+.commentGray{
+color: #BCCDDD;
+}
+/*colors*/
+/* Header styles */
+.MenuText
+{
+	color: #424242;
+	Font-Family: Tahoma;
+	Font-size: 11px;
+	text-decoration: none;
+	padding: 4px 0px;
+	margin: 0px 2px 0px 0px;
+}
+.MenuText
+{
+	color: #424242;
+	Font-Family: Tahoma;
+	Font-size: 11px;
+	text-decoration: none;
+	padding: 4px 0px;
+	margin: 0 2px 0 0px;
+}
+
+
+a:hover.MenuText
+{
+	text-decoration: underline; color:#75AADC;
+}
+a.MenuText
+{
+	text-decoration: none; color:#424242;
+}
+a:hover.MenuText
+{
+	text-decoration: underline; color:#75AADC;
+}
+.Header {
+	position: relative;
+}
+#logo {
+	margin:0px 0px 0px 0px;
+}
+.textlinks a
+{
+	color: #424242;
+	font: normal 11px Tahoma;
+}
+
+.textlinks
+{
+	color: #424242;
+	font: normal 11px Tahoma;
+	padding-right: 10px;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+}
+.Welcome {
+	padding-top:3px;
+	color:#424242;
+	text-align: right;
+	position: absolute;
+	padding-right: 15px;
+	top: 37px;
+	right: 0px;
+}
+
+.finyear {
+	padding-top:3px;
+	color:#424242;
+	text-align: right;
+	position: absolute;
+	padding-right: 15px;
+	top: 60px;
+	right: 0px;
+}
+
+.role_current {
+	padding-top:3px;
+	color:#424242;
+	text-align: right;
+	position: absolute;
+	padding-right: 15px;
+	top: 100px;
+	right: 0px;
+}
+.top
+{
+	color: #7CACDA;
+}
+
+/*Tabs Menu*/
+#tabs {
+ 	float: left;
+  	width: 100%;
+  	line-height: normal;
+  	border-bottom: 1px solid #767676;
+}
+
+.logout{
+  	float: left;
+  	margin: 10px;
+}
+
+#tabs ul {
+ 	margin: 0;
+  	padding: 10px 10px 0 5px;
+  	list-style: none;
+}
+
+#tabs li {
+  	display: inline;
+  	margin: 0;
+  	padding: 0;
+  	font-weight:bold;
+}
+
+#tabs a {
+ 	float: left;
+  	background: url(../images/tab-left1.gif) no-repeat left top;
+  	margin: 0;
+  	padding: 0 0 0 5px;
+  	text-decoration: none;
+}
+
+#tabs a span {
+  	float: left;
+  	display: block;
+  	background: url(../images/tab-right1.gif) no-repeat right top;
+  	padding: 5px 10px 5px 3px;
+  	color: #404040;
+}
+
+
+#tabs a span {
+  	float: none;
+}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+  	color: #FFFFFF;
+}
+
+#tabs a:hover {
+  	background-position: 0% -42px;
+}
+
+#tabs a:hover span {
+  	background-position: 100% -42px;
+}
+
+#tabs #current a {
+  	background-position: 0% -42px;
+}
+
+#tabs #current a span {
+  	background-position: 100% -42px;
+  	color: #FFFFFF;
+  	font-weight: bold;
+}
+/*Control panel Notifications dialog box*/
+
+.AdminAnnouncePanel {
+	border: 5px solid #ececec;
+}
+
+.AdminAnnouncePanel .Heading2 {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+}
+
+.AdminAnnouncePanel .PanelContent {
+	border: 1px solid #ccc;
+	
+}
+
+.AdminAnnouncePanel .PanelToggle {
+	padding:4px 5px 0 0;
+}
+
+.AdminAnnouncePanel .PanelToggle a {
+	color: gray;
+	font-weight: normal;
+}
+.AdminAnnouncePanel .PanelContent a {
+	color: gray;
+	font-weight: normal;
+	
+}
+.AdminAnnouncePanel .PanelContent li { 
+	padding-bottom: 2px;
+}
+.AdminAnnouncePanel .PanelContent a:hover {
+	color: red;
+	font-weight: normal;
+}
+.AdminAnnouncePanel .PanelHeader {
+	height: 16px;
+	padding-top:5px;
+}
+
+.AdminAnnouncePanel #HomeNotificationsTitle {
+	background: url('../images/notifications.gif') no-repeat 0 3px;
+	padding-left: 28px;
+}
+.AdminAnnouncePanel ul, .AdminAnnouncePanel p {
+	margin: 10px 20px;
+	padding: 0;
+	line-height: 1.3;
+}
+.AdminAnnouncePanel li {
+	margin-left: 24px;
+}
+
+/*List and Grid Styles*/
+.Heading2,
+TR.Heading2 TD
+{
+	font-weight: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000;
+    FONT-FAMILY: Tahoma;
+    HEIGHT: 16pt;
+    background-color: #EDECEC;
+    padding: 4px 4px 4px 10px;
+	background-image: url('../images/table_bg.gif');
+}
+.smallButton
+{
+	font-size: 11px;
+	width: 135px;
+    font-family: Tahoma;
+}
+.Heading3
+{
+	padding-left: 4pt;
+	font-weight: bold;
+    FONT-SIZE: 11px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Tahoma;
+    TEXT-DECORATION: none;
+}
+
+.Heading3 td
+{
+    VERTICAL-ALIGN: middle;
+	background-image: url('../images/table_bg.gif');
+	background-repeat: repeat-x;
+	padding: 4px;
+    background-color: #e4e4e4;
+	color: #000;
+	border-bottom: 1px solid #ddd;
+}
+tr td.SortHighlight {
+	background: #F4F3F3;
+}
+tr.GridRow td.Suspicious, tr.GridRowOver td.Suspicious {
+	background-color: #F4B5B5;
+}
+
+.GridPanel
+{
+    font-weight: normal;
+    FONT-SIZE: 11px;
+    COLOR: #4e4f4f;
+    FONT-FAMILY: Tahoma;
+	width: 100%;
+}
+
+.GridPanel A
+{
+	font-weight: normal;
+    FONT-SIZE: 11px;
+    COLOR: #333333;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Tahoma;
+    TEXT-DECORATION: underline;
+}
+
+.ClearPanel
+{
+	border-collapse: collapse;
+    font-weight: normal;
+    FONT-SIZE: 11px;
+    COLOR: #4e4f4f;
+    padding: 4px;
+    width: 100%;
+}
+
+TR.GridRow TD, TR.GridRowSel TD
+{
+    padding: 3px 3px 3px 5px;
+    BACKGROUND-COLOR: #F9F9F9;
+	border-bottom: solid 1px #EDECEC;
+}
+
+TR.GridRowOver TD, TR.GridRowSelOver TD
+{
+	padding: 3px 3px 3px 5px;
+	background-color: #F3F3F3;
+	border-bottom: solid 1px #EDECEC;
+}
+tr.GridRow td.Suspicious, tr.GridRowOver td.Suspicious {
+	background-color: #F4B5B5;
+}
+tr.GridRowSelOver td.SortHighlight {
+	background-color: #FFFF50;
+}
+tr.GridRowSelOver td {
+	background-color: #FFFF66;
+}
+tr.GridRowSel td {
+	background-color: #FFFFAA;
+}
+
+tr.GridRowSel td.SortHighlight {
+	background-color: #FFFF97;
+}
+.list_table_padding{
+	padding-left:30px;
+	padding-right:30px;
+}
+
+/* Form Field and Label Styles*/
+.FormContentLabel
+{
+	padding: 6px 10px 0px 10px;
+    font-weight: normal;
+    FONT-SIZE: 11px;
+    COLOR: #4e4f4f;
+	background-color:#F5F5F5;
+    FONT-FAMILY: Tahoma;
+	font-weight:bold;	
+    TEXT-DECORATION: none;
+    vertical-align: top;
+	text-align: right;
+    width: 130px;
+}
+
+.FormSmallContentLabel
+{
+	padding: 6px 10px 0px 10px;
+    font-weight: normal;
+    FONT-SIZE: 11px;
+    COLOR: #4e4f4f;
+	background-color:#F5F5F5;
+    FONT-FAMILY: Tahoma;
+    TEXT-DECORATION: none;
+    vertical-align: top;
+    width: 10px;
+}
+.Fields
+{
+	font-size: 11px;
+	color: #333333;
+	font-family: Tahoma;
+	margin-top: 3px;
+	margin-right: 5px;
+	width:200px;
+	border:1px solid #A4A4A4;
+}
+.requiredFileds{
+	color:#CC0000;
+	font-weight:bold;
+ 
+}
+.smallComboField{
+	font-size: 11px;
+	color: #333333;
+	font-family: Tahoma;
+	height:22px;
+}
+/*Table Styles*/
+table.borderGray{
+	border: 1px solid #F3F3F3;
+}
+.bgcolorGray{
+	background-color: #FBFBFB;
+}
+/*Pagination Styles*/
+
+.pagination{
+padding: 2px;
+}
+
+.pagination ul{
+margin: 0;
+padding: 0;
+text-align: right; /*Set to "right" to right align pagination interface*/
+font-size: 11px;
+}
+
+.pagination li{
+list-style-type: none;
+display: inline;
+padding-bottom: 1px;
+}
+
+.pagination a, .pagination a:visited{
+padding: 0 5px;
+border: 1px solid #CCCCCC;
+text-decoration: none; 
+color: #000000;
+}
+
+.pagination a:hover, .pagination a:active{
+border: 1px solid #CCCCCC;
+color: #FFFFFF;
+background-color: #9C2C15;
+}
+
+.pagination a.currentpage{
+background-color: #9C2C15;
+color: #FFF !important;
+border-color: #2b66a5;
+font-weight: bold;
+cursor: default;
+}
+
+.pagination a.disablelink, .pagination a.disablelink:hover{
+background-color: white;
+cursor: default;
+color: #929292;
+border-color: #929292;
+font-weight: normal !important;
+}
+
+.pagination a.prevnext{
+font-weight: bold;
+}
+
+
+
+/*Alert Messages*/
+.alert-Exclamation {
+	background: #F7BBAB url(../images/alert-exclamation.gif) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #DB3F2F;
+	border-bottom: 2px solid #DB3F2F;
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#DB3F2F;
+	margin-bottom:10px;
+}
+.alert-Ok {
+	background: #DFF2BF url(../images/alert-ok.gif) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #4F8A10;
+	border-bottom: 2px solid #4F8A10;
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#4F8A10;
+	margin-bottom:10px;
+}
+.alert-Error {
+	background: #FFBABA url(../images/alert-error.gif) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #D8000C;
+	border-bottom: 2px solid #D8000C;
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#D8000C; 
+	margin-bottom:10px;
+}
+.alert-Info {
+	background: #BDE5F8 url(../images/alert-info.gif) center no-repeat;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 5px 20px 5px 45px;
+	border-top: 2px solid #00529B;
+	border-bottom: 2px solid #00529B;
+	font-family:Tahoma;
+	font-weight:bold;
+	color:#00529B;
+	margin-bottom:10px;
+}
+/*copyrights*/
+.copyrights{
+	padding-bottom:2px;
+	padding-top:2px;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	background-color: #F5F5F5;
+}

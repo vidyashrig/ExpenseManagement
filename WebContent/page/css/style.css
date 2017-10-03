@@ -1,0 +1,57 @@
+BODY {	FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif; }
+A{COLOR: #ffffff; TEXT-DECORATION: none}
+A:hover { text-decoration:underline;}
+A.pgnlinks{color:#000000;font-weight:bold;}
+A.pgnlinks:hover {color:#990000;font-weight:bold; text-decoration:underline}
+A.invlinks{color:#0000FF;font-weight:bold;text-decoration:underline; padding-top:20px; padding-bottom:10px}
+A.invlinks:hover {color:#CC0000;font-weight:bold; text-decoration:underline;}
+A.copyrightlinks{color:#000000;}
+A.copyrightlinks:hover{color:#990000;text-decoration:underline}
+.catnav{font-weight:bold;}
+.catnav a:link {color: #000000; text-decoration:underline;}    
+.catnav a:visited {color: #FF0000;text-decoration:underline;} 
+.catnav a:hover {color: #ff6306;text-decoration:none;}  
+.catnav a:active {color: #0000FF;text-decoration:underline;} 
+.bor {	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; BORDER-LEFT: #333333 1px solid; BORDER-BOTTOM: #333333 1px solid}
+.bor_white {BORDER-RIGHT: #FFFFFF 1px solid; BORDER-TOP: #FFFFFF 1px solid; BORDER-LEFT: #FFFFFF 1px solid; BORDER-BOTTOM: #FFFFFF 1px solid}
+.bor_topbot {BORDER-RIGHT: #333333 0px solid; BORDER-TOP: #333333 1px solid; BORDER-LEFT: #333333 0px solid; BORDER-BOTTOM: #333333 1px solid}
+.bor_g {BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid}
+.bordarkgray_2px{BORDER-RIGHT: #999999 2px solid; BORDER-TOP: #999999 2px solid; BORDER-LEFT: #999999 2px solid; BORDER-BOTTOM: #999999 2px solid}
+.bor_g_left {BORDER-RIGHT: #cccccc 0px solid; BORDER-TOP: #cccccc 0px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 0px solid}
+.admintabbor {BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; BORDER-LEFT: #333333 1px solid; BORDER-BOTTOM: #333333 1px solid}
+.borbotbrwn {BORDER-RIGHT: #330000 0px solid; BORDER-TOP: #330000 0px solid; BORDER-LEFT: #330000 0px solid; BORDER-BOTTOM: #330000 1px solid}
+.borbotgray {BORDER-RIGHT: #333333 0px solid; BORDER-TOP: #333333 0px solid; BORDER-LEFT: #333333 0px solid; BORDER-BOTTOM: #333333 1px solid}
+.bortopbrwn {BORDER-RIGHT: #330000 0px solid; BORDER-TOP: #330000 1px solid; BORDER-LEFT: #330000 0px solid; BORDER-BOTTOM: #330000 0px solid}
+.nobords {BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px}
+.heading_top {color: #ffffff;	font-size: 11px;	font-weight: bold; background-color: #999999; }
+.tdPad_h_20{ padding-top:10px; padding-bottom:10px;}
+.td_inv_links{padding-top:1px; padding-bottom:1px;}
+.td_pad_right_10{PADDING-RIGHT: 10px; }
+.heading_top_list {	color: #ffffff;	font-size: 11px;	font-weight: bold; background-color: #666699; }
+.heading_list {	color: #ffffff;	font-size: 11px;	}
+.copyrite {	color: #ffffff;	font-size: 11px;	font-weight: bold; background-color: #999999; BORDER-RIGHT: #330000 0px solid; BORDER-TOP: #330000 0px solid; BORDER-LEFT: #330000 0px solid; BORDER-BOTTOM: #330000 1px solid}
+.style1 {color: #FFFFFF;	font-weight: bold;}
+.style11 {font-size: 8; color: #999999; }
+.style2 {color: #CC0000}
+.style7 {	color: #003366;	font-size: 9px;}
+.boldblack {color: #000000;	font-weight: bold ; font-size:12px;}
+.boldwhite {color: #FFFFFF;	font-weight: bold ; font-size:12px;}
+.txtnormal{FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif; }
+.button {	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; BACKGROUND: #cccccc; BORDER-LEFT: #333333 1px solid; COLOR: #000000; BORDER-BOTTOM: #333333 1px solid; TEXT-ALIGN: center}
+INPUT {	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #333333 1px solid; COLOR: #000000; BORDER-BOTTOM: #333333 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif}
+INPUT.checkbox {	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #333333 1px solid; COLOR: #000000; BORDER-BOTTOM: #333333 1px solid; }
+.optionsml {	FONT-SIZE: 10px;  COLOR: #000000; FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif;HEIGHT: 22px;  }
+.defaulterr { font-family: Tahoma;font-size: 8pt;  color: #000000; display: inline; }
+.error { font-family: Tahoma;font-size: 8pt;  color: #ff0000; display:none;  }
+.err{ font-family: Tahoma;font-size: 8pt;  color: #ff0000;  }
+.errbold{font-family: Tahoma;font-size:11px;font-weight: bold; 11pt; color: #ff0000; }
+.statusMsgRed {	FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif; color: #ff0000; }
+.statusMsgGreen {	FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif; color: #339900; }
+.statusMsgSafron {	FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif; color: #ff6600; }
+.statusMsgBrown {	FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif; color: #663333; }
+.statusMsgBlue {	FONT-SIZE: 11px; FONT-FAMILY: Arial, Helvetica, sans-serif; color: #0000ff; }
+.hideComp{display:none;}
+.viewtitle{color: #666666;	font-weight: bold ;}
+.viewdetails {color: #CF0000;	font-weight: bold ;}
+.catpath{color: #0033CC;font-weight:bold;}
+.maroonButton{background-image:url(images/but_bg.gif); font-weight:bold; color:#FFFFFF; padding:1px;}
