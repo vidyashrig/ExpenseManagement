@@ -46,7 +46,7 @@ $(function() {
 <div id="tabs">
             <ul>
                <li><a href="login" id="main">
-                            <span>Main Page</span></a>
+                            <span>Main Expense Page</span></a>
                </li>
                <%
                if(session.getAttribute("memberId") != null){
